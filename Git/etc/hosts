@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Copyright (c) 1993-2009 Microsoft Corp.
+=======
+﻿# Copyright (c) 1993-2009 Microsoft Corp.
+>>>>>>> c2774603d42b5bf16045061ad916ce09bc0e2cf4
 #
 # This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
 #
@@ -19,3 +23,12 @@
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
+<<<<<<< HEAD
+=======
+# Added by Docker Desktop
+192.168.220.37 host.docker.internal
+192.168.220.37 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+>>>>>>> c2774603d42b5bf16045061ad916ce09bc0e2cf4
